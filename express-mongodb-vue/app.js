@@ -8,9 +8,9 @@ const bodyParser = require("body-parser")
 
 
 //这一句是连接上数据库
- var db = mongoose.connect('mongodb://localhost:27017/myDbs');
+ var db = mongoose.connect('mongodb://localhost:27017/vueAndNode');
 
-//这里的myDbs是数据库的名字，不是表的名字
+//这里的vueAndNode是数据库的名字，不是表的名字
 
 
 
